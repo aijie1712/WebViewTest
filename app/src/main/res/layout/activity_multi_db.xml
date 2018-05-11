@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cmeplaza.com.webviewtest.multidb.MultiDbActivity">
+    <Button
+        android:layout_width="match_parent"
+        android:text="创建数据库1"
+        android:id="@+id/btn_create1"
+        android:onClick="onClick"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="创建数据库2"
+        android:id="@+id/btn_create2"
+        android:onClick="onClick"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="使用数据库1"
+        android:id="@+id/btn_use1"
+        android:onClick="onClick"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="使用数据库2"
+        android:id="@+id/btn_use2"
+        android:onClick="onClick"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/et_input"
+        android:hint="请输入名称："
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="添加数据"
+        android:id="@+id/btn_add_data"
+        android:onClick="onClick"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="查询数据"
+        android:id="@+id/btn_select"
+        android:onClick="onClick"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="清空数据"
+        android:id="@+id/btn_delete"
+        android:onClick="onClick"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/tv_result"
+        android:layout_height="match_parent" />
+</LinearLayout>
